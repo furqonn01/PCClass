@@ -1,0 +1,274 @@
+/* CSS LOGIN */
+.headerlog{
+    background-color: rgb(122, 187, 139);
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    padding: 20px 0px;
+}
+.header a{
+    float: inherit;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* .line{
+    background-color: aquamarine;
+    width: 100%;
+    height: 10px;
+    float: inline-start;
+    margin: none;
+    position: relative;
+} */
+/* nav.menu ul{
+    list-style: none;
+    float: right;
+    padding-right: 30px;
+    display: block;
+} */
+/* nav.menu ul a{
+    display: inline;
+    color: #fff;
+    transition: all 0.5 ease;
+    text-decoration: none;
+    text-transform: none;
+} */
+.kotak_login{
+    width: 350px;
+    background: #dddddd;
+    padding: 20px 20px;
+    margin: 80px auto;
+}
+.tulisan_login{
+    text-transform: uppercase;
+    font-size: 16pt;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 10px auto;
+}
+.form_login[type=text], input[type=password]{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 12pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* display: inline-block; */
+    border: none;
+    background: #f1f1f1;
+}
+.form_login[type=text]:focus, input[type=password]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+.tbl_login{
+    background: rgb(18, 199, 66);
+    color: #fff;
+    font-size: 12pt;
+    width: 100%;
+    padding: 10px 10px;
+}
+.label{
+    font-family: sans-serif;
+    margin: 20px auto;
+}
+
+/* CSS REGISTER */
+/* .header{
+    background-color: #8aa27d;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    padding: 20px 20px;
+  } */
+  
+  .header a.judul{
+    font-size: 25px;
+    color: white;
+    margin: 10px;
+  }
+  
+  /* .header-left{
+    background-color: lightcoral;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+    float: left;
+    display: inline-flex;
+  } */
+  
+  .header-right{
+    background-color: beige;
+    margin-top: auto;
+    margin-right: 20px;
+    margin-left: auto;
+    font-size: 25px;
+    text-align: center;
+    line-height: 60px;
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+    display: table-row-group; 
+  }
+  .wrap{
+    width: 100%;
+    margin: 25px auto;
+  }
+  nav.menu ul{
+    overflow: hidden;
+    color: #fff;
+    list-style: none;
+    float: right;
+    padding-right: 20px;
+    width: 800px;
+    margin-right: 0;
+    /* margin: 0 0 0; */
+    background: rgb(122, 187, 139);
+  }
+  
+  nav.menu ul li{
+    margin: 0px;
+    float: right;
+  }
+  
+  nav.menu ul a{
+    padding: 25px;
+    display: block;
+    color: #fff;
+    transition: all 0.5 ease;
+    text-decoration: none;
+    text-transform: none;
+  }
+  .kotak_register{
+    width: 350px;
+    background: #fff;
+    padding: 20px 20px;
+  }
+  .tulisan_register{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16pt;
+    font-family: sans-serif;
+    margin-top: -20px;
+  }
+  
+  .form_register[type=text], input[type=password]{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 12pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  .form_register[type=text]:focus, input[type=password]:focus{
+    background-color:#ddd;
+    outline: none; 
+  }
+  
+  .tabel_register{
+    background: lightseagreen;
+    color: #fff;
+    font-size: 12pt;
+    width: 100%;
+    padding: 10px 10px;
+  }
+  
+  label{
+    font-family: sans-serif;
+  }
+  
+  .registerbtn{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 12pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: greenyellow;
+  }
+  
+/* CSS DASHBOARD */
+
+body{
+	background-color: rgb(255, 255, 255);
+	margin: 0px;
+}
+.judul{
+    padding: 20px;
+    text-align: center;
+    color: azure;
+	background-color: rgb(122, 187, 139);
+	margin-bottom: -20px;
+}
+.test{
+    color: rgba(45, 97, 15, 0.288);
+    background-color: rgb(201 , 238, 186)
+}
+.link{
+    text-decoration: none;
+    color: aliceblue;
+    display: inline;
+    float: right;
+}
+
+.font{
+    font-size: 20px
+}
+.SubJdl{
+    text-align: center;
+	margin-top: 50px;
+	color: rgb(142, 161, 139);
+}
+
+.container{
+	float: left;
+	border: 1px solid rgba(0, 0, 0, 0.089);
+	margin-left: 60px;
+    margin-bottom: 30px;
+    margin-top: 60px;
+	padding: 30px;
+	padding-top: 130px;
+	padding-bottom: 50px;
+	width: 18rem;
+	height: 18rem;
+	background-color: rgb(252, 255, 251);
+}
+#look_btn{
+	margin-top: 15px;
+	margin-bottom: 10px;
+	background-color: #2F74D0;
+	color: white;
+}
+
+.container1{
+    float: center;
+	border: 1px solid rgba(0, 0, 0, 0.089);
+	padding: 50px;
+  padding-top: 90px;
+  padding-bottom: 150px;
+  width: 18rem;
+	height: 18rem;
+	background-color: rgb(252, 255, 251);
+}
+#back_btn{
+	margin-top: 12px;
+	margin-bottom: 18px;
+	background-color: rgb(121, 173, 135);
+	color: rgb(255, 255, 255);
+	width: 290px;
+	height: 35px;
+}
