@@ -215,12 +215,12 @@ body{
 	margin-bottom: -20px;
 }
 .test{
-    color: rgba(45, 97, 15, 0.288);
-    background-color: rgb(201 , 238, 186)
+    color: rgb(255, 255, 255);
+    background-color: rgb(187, 223, 173)
 }
 .link{
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     display: inline;
     float: right;
 }
@@ -237,11 +237,11 @@ body{
 .container{
 	float: left;
 	border: 1px solid rgba(0, 0, 0, 0.089);
-	margin-left: 60px;
+	margin-left: 70px;
     margin-bottom: 30px;
     margin-top: 60px;
 	padding: 30px;
-	padding-top: 130px;
+	padding-top: 90px;
 	padding-bottom: 50px;
 	width: 18rem;
 	height: 18rem;
@@ -271,4 +271,7 @@ body{
 	color: rgb(255, 255, 255);
 	width: 290px;
 	height: 35px;
+}
+.images {
+  width: 65%;
 }

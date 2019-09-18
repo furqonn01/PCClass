@@ -38,34 +38,38 @@ session_start();
         <h1 class="SubJdl">Makanan Tradisional Indonesia</h1>
     </div> 
     <div class="container" align="center">
-            <img src="images/klepon.jpg" width ="215">
+            <img src="images/klepon.jpg" class="images">
 			<p id="nama">Klepon</p>
 			<p>Asal<br>
 			"Pulau Jawa"<br>
             <button id="look_btn" onclick="window.location.href='isi.php'">Lihat lebih banyak</button>
     </div>
 	<div class="container" align="center">
+            <img src="images/dadargulung.jpg" class="images">
 			<p id="nama">Dadar Gulung</p>
 			<p>Asal<br>
-			"Kota #"<br>
+			"Pulau Jawa"<br>
             <button id="look_btn" onclick="window.location.href='isi.php'">Lihat lebih banyak</button>
     </div>
     <div class="container" align="center">
+            <img src="images/gethuk.jpg" class="images">
 			<p id="nama">Gethuk Goreng</p>
 			<p>Asal<br>
-			"Kota #"<br>
+			"Pulau Jawa"<br>
             <button id="look_btn" onclick="window.location.href='isi.php'">Lihat lebih banyak</button>
     </div>
 	<div class="container" align="center">
-			<p id="nama">Babat Wingko</p>
+            <img src="images/wingkobabat.jpg" class="images">
+			<p id="nama">Wingko Babat</p>
 			<p>Asal<br>
-			"Kota #"<br>
+			"Pulau Jawa"<br>
             <button id="look_btn" onclick="window.location.href='isi.php'">Lihat lebih banyak</button>
     </div> 
     <div class="container" align="center">
+            <img src="images/putuayu.jpg" class="images">
 			<p id="nama">Putu Ayu</p>
 			<p>Asal<br>
-			"Kota #"<br>
+			"Pulau Jawa"<br>
             <button id="look_btn" onclick="window.location.href='isi.php'">Lihat lebih banyak</button>
 	</div>        
 </body>
