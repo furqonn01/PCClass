@@ -21,7 +21,7 @@
             window.location.href='index.php';
             </script>";
         }else{
-            echo "gagul";
+            echo "gagal";
         }
     }
 ?>
